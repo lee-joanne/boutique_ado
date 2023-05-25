@@ -9,13 +9,15 @@
     {% block body %}
 
     {% if messages %}
-    <div class="message-container">
-      {% for message in messages %}
-        {% include 'includes/toasts/toast_success.html' %}
-      {% endfor %}
+    <div>
+      <strong>Messages:</strong>
+      <ul>
+        {% for message in messages %}
+        <li>{{message}}</li>
+        {% endfor %}
+      </ul>
     </div>
     {% endif %}
-
 
     <div>
       <strong>Menu:</strong>
