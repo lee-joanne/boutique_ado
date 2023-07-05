@@ -1,5 +1,6 @@
 asgiref==3.6.0
 astroid==2.15.4
+dj-database-url==0.5.0
 Django==3.2.18
 django-allauth==0.41.0
 django-countries==7.2.1
@@ -8,6 +9,7 @@ numpy==1.25.0
 oauthlib==3.2.2
 Pillow==9.5.0
 platformdirs==3.3.0
+psycopg2==2.9.6
 pylint==2.17.3
 python3-openid==3.2.0
 pytz==2023.3
